@@ -1,7 +1,7 @@
 streamlit==1.39.0
 pandas==2.2.2
-numpy
-sweetviz
+numpy<2.0
+sweetviz==2.1.4
 matplotlib
 seaborn
 scikit-learn
@@ -9,3 +9,4 @@ imbalanced-learn
 transformers==4.39.3
 torch==2.2.2
 sentencepiece
+
